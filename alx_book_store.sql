@@ -23,7 +23,7 @@ address TEXT
 
 CREATE TABLE Orders(
 order_id INT PRIMARY KEY AUTO_INCREMENT,
-customer_id INT UNIQUE,
+customer_id INT ,
 FOREIGN KEY(customer_id) REFERENCES Customers(customer_id),
 order_date DATE 
 );
