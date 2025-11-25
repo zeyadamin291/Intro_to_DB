@@ -5,7 +5,8 @@ CREATE TABLE Books(
 book_id INT PRIMARY KEY AUTO_INCREMENT,
 title VARCHAR(130) NOT NULL,
 author_id INT NOT NULL UNIQUE,
-FOREIGN KEY (author_id) REFERENCES Author(author_id)
+FOREIGN KEY (author_id) REFERENCES Author(author_id),
+price DECIMAL(10,2) NOT NULL
 );
 
 CREATE TABLE Authors(
