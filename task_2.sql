@@ -1,3 +1,8 @@
+CREATE TABLE Authors(
+    author_id INT PRIMARY KEY AUTO_INCREMENT,
+    author_name VARCHAR(215) NOT NULL
+); 
+
 CREATE TABLE Books(
     book_id INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(130) NOT NULL,
