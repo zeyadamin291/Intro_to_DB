@@ -1,0 +1,5 @@
+SELECT * FROM TABLE Books;
+SELECT * FROM TABLE Authors;
+SELECT * FROM TABLE Customers;
+SELECT * FROM TABLE Orders;
+SELECT * FROM TABLE Order_Details;
